@@ -11,7 +11,7 @@ function Main(){
     };
 
     return(
-        <div className=" font-['Dm_Sans'] font-bold bg-[#000000] w-[100%] xl:h-[95rem] lg:h-[90rem] sm:h-[135rem]">
+        <div className="font-['Dm_Sans'] font-bold bg-[#000000] w-[100%] xl:h-[95rem] lg:h-[90rem] sm:h-[135rem]">
             <img src={fundo} alt="fundo" className="relative w-[100%]"/>
             <div className="bg-[#1B1D1F] flex flex-col justify-center items-center xl:w-[85%] lg:w-[40rem] lg:min-h-[900px] sm:min-h-[700px] absolute xl:top-52 lg:top-32 sm:top-20 xl:left-32 lg:left-48 sm:left-28 rounded-2xl pb-10">
                 <div className="relative flex justify-center items-center pt-14">
