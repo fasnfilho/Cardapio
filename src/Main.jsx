@@ -25,7 +25,7 @@ function Main(){
                     <button className={selectedButton === 1 ? "bg-[#6F757C] rounded-lg xl:w-[10rem] lg:w-[8rem] sm:w-[6rem]" : "bg-transparent xl:w-[10rem] lg:w-[8rem] sm:w-[6rem]"} onClick={() => handleButtonClick(1)}>All Products</button>
                     <button className={selectedButton === 2 ? "bg-[#6F757C] rounded-lg xl:w-[11rem] lg:w-[9rem] sm:w-[7rem]" : "bg-transparent xl:w-[11rem] lg:w-[9rem] sm:w-[7rem]"} onClick={() => handleButtonClick(2)}>Available Now</button>
                 </div>
-                <Cardlist></Cardlist>
+                <Cardlist btn={selectedButton}></Cardlist>
             </div>
         </div>
     );
